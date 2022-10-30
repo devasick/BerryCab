@@ -1,3 +1,14 @@
+// module.exports = {
+//   reactStrictMode: true,
+// }
 module.exports = {
-  reactStrictMode: true,
-}
+  redirects() {
+    return [
+      {
+        source: "/((?!maintenance).*)",
+        destination: "/maintenance.html",
+        permanent: false,
+      },
+    ];
+  },
+};
