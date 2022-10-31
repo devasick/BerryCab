@@ -1,6 +1,22 @@
-/* @tailwind base;
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
+$color-primary: #e02959;
+
+.nav-bg {
+  background: $color-primary;
+}
+
+.bg-berry {
+  background: $color-primary;
+}
+
+.text-berry {
+  color: $color-primary;
+}
+.border-berry {
+  border: 1px solid $color-primary;
+}
 
 .map-h2 {
   text-transform: uppercase;
@@ -47,4 +63,4 @@
   .pin-icon {
     font-size: 10vw;
   }
-} */
+}

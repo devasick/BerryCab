@@ -21,18 +21,38 @@ const AboutUs = () => {
         <div className="container mx-auto lg:grid lg:grid-cols-2 gap-16 py-24 px-16">
           <div className="col-span-1 space-y-8 text-gray-600">
             <p className="text-xl font-medium">
-              For over a dozen years we have been providing the best transport
-              services. We offer bus, passenger transport and limousine rental.
+              Our prime focus is customer satisfaction- and we work hard to
+              achieve it. We always consider the convenience of our customers
+              before booking our staff transportation experienced staff
+              experience transportation. Our vehicles are well-maintained
+              well-maintained and free from defects and accidents. Each one is
+              also registered with the state and carries our company's
+              insurance. This way, you can be sure that your trip will be safe
+              and hassle-free.
             </p>
-            <p className="text-gray-500">
-              We address our offer to all who want to travel in comfortable
-              conditions. We have over 120 top-class vehicles, so our customers
-              can be assured of comfort and safety.
+            <p className="text-xl font-medium">
+              Our staff is knowledgeable and friendly to make your trip stress
+              free. Each driver has at least two years of experience working for
+              a reputable company. They are friendly, courteous, and punctual
+              and can speak English, Hindi, and French, transportation
+              experienced maintained well and English fluently. They also
+              undergo regular training sessions so they can improve their skills
+              with each passing year. In addition, our office staff is very
+              helpful and will do whatever they can to answer your questions
+              about transportation or destinations in the area.
+            </p>
+            <p className="text-xl font-medium">
+              We take great pride in being able to provide exceptional service
+              with no detail unattended- ensuring your every expectation is met
+              at all times! Safety is always a top priority for us since delays
+              seriously affect timelines for all parties involved in
+              transportation exchanges. We wish you the best of luck during your
+              next journey!
             </p>
             <div className="space-y-3 text-gray-500">
               <div className="flex flex-row space-x-4 items-center">
                 <FaCheck className="w-9 h-9 border rounded-full text-amber-500  p-2" />
-                <p>Professionally Trained Chauffeurs</p>
+                <p>Affordable rates</p>
               </div>
               <div className="flex flex-row space-x-4 items-center">
                 <FaCheck className="w-9 h-9 border rounded-full text-amber-500  p-2" />
@@ -40,7 +60,11 @@ const AboutUs = () => {
               </div>
               <div className="flex flex-row space-x-4 items-center">
                 <FaCheck className="w-9 h-9 border rounded-full text-amber-500  p-2" />
-                <p>Global network of Transportation Partners</p>
+                <p>Flexible booking</p>
+              </div>
+              <div className="flex flex-row space-x-4 items-center">
+                <FaCheck className="w-9 h-9 border rounded-full text-amber-500  p-2" />
+                <p>Safe driving</p>
               </div>
             </div>
           </div>

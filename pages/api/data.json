@@ -1,0 +1,97 @@
+{
+  "header": [
+    {
+      "address": "97, Avenue du General de Gaulle Le Plessis Trevise 94420 France",
+      "phone": "33 7 78 88 62 06",
+      "workingHours": "Mon-Sun: 07:00 - 17:00",
+      "facebook": "https://www.facebook.com/berrycab",
+      "insta": "https://www.instagram.com/berrycab24/",
+      "whatsapp": "https://api.whatsapp.com/send/?phone=%2B33751509455&text&type=phone_number&app_absent=0"
+    }
+  ],
+  "slider": [
+    {
+      "title": "First Class . WorldWide",
+      "content": " A chauffer Service for Any Purpose",
+      "image": "img04.jpg"
+    },
+    {
+      "title": "First Class . WorldWide",
+      "content": " A chauffer Service for Any Purpose",
+      "image": "img02.jpg"
+    },
+    {
+      "title": "First Class . WorldWide",
+      "content": " A chauffer Service for Any Purpose",
+      "image": "img03.jpg"
+    }
+  ],
+  "service": [
+    {
+      "title": "Safety First",
+      "content": "Experienced staff and professionally trained chauffeurs",
+      "icon": "FaEnvira"
+    },
+    {
+      "title": "Reasonable Rates",
+      "content": "We can offer you the right vehicle at the right price to fit your budget",
+      "icon": "FaCodepen"
+    },
+    {
+      "title": "Largest Fleet",
+      "content": "We offer an extensive fleet of vehicles including sedans, limousines and coach buses",
+      "icon": "FaBusAlt"
+    },
+    {
+      "title": "Nationwide Service",
+      "content": "We provide our transportation services nationwide",
+      "icon": "FaDrawPolygon"
+    }
+  ],
+  "customerservice": [
+    {
+      "title": "Exceptional Customer Service",
+      "content": "By offering exceptional service with no detail unattended, we have been fortunate enough to have developed into the leading provider of ground transportation in the area. Our goal is to make your travels safe, effortless and on schedule."
+    }
+  ],
+  "whatWeOffer": [
+    {
+      "title": "AIRPORT TRANSFER",
+      "image": "image_01-4.jpg",
+      "colSpan": 2
+    },
+    {
+      "title": "WORLDWIDE TRANSPORTATION",
+      "image": "image_02-4.jpg",
+      "colSpan": 2
+    },
+    {
+      "title": "CORPORATE TRAVEL",
+      "image": "image_03-4.jpg",
+      "colSpan": 2
+    },
+    {
+      "title": "CHARTER SERVICE",
+      "image": "image_04-4.jpg",
+      "colSpan": 1
+    },
+    {
+      "title": "SPECIAL EVENT LIMOUSINE",
+      "image": "image_02-4.jpg",
+      "colSpan": 1
+    }
+  ],
+  "footer": [
+    {
+      "address": "97, Avenue du General de Gaulle Le Plessis Trevise 94420 France",
+      "phone": "+33 7788 86206",
+      "whatsappNumber": "+33 751 509455",
+      "workingHours": "Mon-Sun: 07:00 - 17:00",
+      "email": " Berrycabparis@gmail.com",
+      "facebook": "https://www.facebook.com/berrycab",
+      "insta": "https://www.instagram.com/berrycab24/",
+      "whatsapp": "https://api.whatsapp.com/send/?phone=%2B33751509455&text&type=phone_number&app_absent=0",
+      "content": "Berry Cab was founded in 2010 by two friends who wanted to provide affordable luxury transportation services to their clients.In 2012, Berry Cab expanded its operations to offer car rentals in Paris and surrounding areas."
+    }
+  ]
+}

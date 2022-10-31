@@ -8,34 +8,52 @@ import {
   FaWhatsapp,
 } from "react-icons/fa";
 import Image from "next/image";
-import Logo from "../public/logo.png";
-const navbar = () => {
+import Logo from "../public/logo.svg";
+const navbar = (pageProps) => {
   return (
     <div>
       <div className="bg-gray-100 ">
-        <div className="container mx-auto lg:flex lg:flex-row  lg:justify-between justify-center items-center space-y-2  text-gray-500 py-3 w-full">
+        <div className="container mx-auto lg:flex lg:flex-row  lg:justify-between justify-center items-center space-y-2  text-black py-3 w-full">
           <div className="lg:flex lg:flex-row flex flex-col justify-center items-center space-x-12 lg:space-y-0 space-y-2">
             <div className="flex flex-row space-x-2">
-              <FaMapMarkerAlt className="w-5 h-5 text-gray-500" />
-              <p>2507 Parker Boulevard, Oakland, CA 76107</p>
+              <FaMapMarkerAlt className="w-5 h-5 text-berry" />
+              <p>{pageProps.headerData[0].address}</p>
             </div>
             <div className="flex flex-row space-x-2">
-              <FaMobileAlt className="w-5 h-5 text-gray-500" />
-              <p> (0481) 123 987 2411</p>
+              <FaMobileAlt className="w-5 h-5 text-berry" />
+              <p>{pageProps.headerData[0].phone}</p>
             </div>
             <div className="flex flex-row space-x-2">
-              <FaRegClock className="w-5 h-5 text-gray-500" />
-              <p>Mon-Sat: 07:00 - 17:00</p>
+              <FaRegClock className="w-5 h-5 text-berry" />
+              <p>{pageProps.headerData[0].workingHours}</p>
             </div>
           </div>
           <div className="flex flex-row space-x-4  justify-center items-center ">
-            <FaFacebook className="w-6 h-6 text-gray-500" />
-            <FaInstagram className="w-6 h-6 text-gray-500" />
-            <FaWhatsapp className="w-6 h-6 text-gray-500" />
+            <a
+              href={pageProps.headerData[0].facebook}
+              title="facebook"
+              target={"_blank"}
+            >
+              <FaFacebook className="w-6 h-6 text-berry" />
+            </a>
+            <a
+              href={pageProps.headerData[0].insta}
+              title="instagram"
+              target={"_blank"}
+            >
+              <FaInstagram className="w-6 h-6 text-berry" />
+            </a>
+            <a
+              href={pageProps.headerData[0].whatsapp}
+              title="whatsapp"
+              target={"_blank"}
+            >
+              <FaWhatsapp className="w-6 h-6 text-berry" />
+            </a>
           </div>
         </div>
       </div>
-      <nav className=" px-2 sm:px-4 py-5 ">
+      <nav className=" px-2 sm:px-4 py-5 nav-bg">
         <div className="container flex flex-wrap justify-between items-center mx-auto">
           <Link href="/">
             <a href="#" className="flex">
@@ -45,14 +63,14 @@ const navbar = () => {
           <div className="flex md:order-2">
             <button
               type="button"
-              className="text-gray-700 hover:text-white hover:bg-yellow-600 border-2 border-yellow-500   rounded-3xl  px-5 py-2.5 text-center mr-3 md:mr-0 "
+              className="text-berry bg-white hover:text-white hover:bg-black hover:border-black border-2 border-white rounded-3xl  px-5 py-2.5 text-center mr-3 md:mr-0 "
             >
               GET A QUOTE
             </button>
             <button
               data-collapse-toggle="mobile-menu-4"
               type="button"
-              className="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+              className="inline-flex items-center p-2 text-sm text-white rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
               aria-controls="mobile-menu-4"
               aria-expanded="false"
             >
@@ -92,7 +110,7 @@ const navbar = () => {
                 <Link href="/">
                   <a
                     href="#"
-                    className="block py-2 pr-4 pl-3 text-yellow-600  md:hover:text-yellow-500 md:p-0 "
+                    className="block py-2 pr-4 pl-3 text-white  md:hover:text-black md:p-0 "
                     aria-current="page"
                   >
                     HOME
@@ -103,7 +121,7 @@ const navbar = () => {
                 <Link href="/aboutus">
                   <a
                     href="#"
-                    className="block py-2 pr-4 pl-3 text-gray-500   md:hover:text-yellow-500 md:p-0 "
+                    className="block py-2 pr-4 pl-3 text-white   md:hover:text-yellow-500 md:p-0 "
                   >
                     ABOUT
                   </a>
@@ -113,7 +131,7 @@ const navbar = () => {
                 <Link href="/services">
                   <a
                     href="#"
-                    className="block py-2 pr-4 pl-3 text-gray-500   md:hover:text-yellow-500 md:p-0 "
+                    className="block py-2 pr-4 pl-3 text-white   md:hover:text-yellow-500 md:p-0 "
                   >
                     SERVICES
                   </a>
@@ -123,7 +141,7 @@ const navbar = () => {
                 <Link href="/contact">
                   <a
                     href="#"
-                    className="block py-2 pr-4 pl-3 text-gray-500  md:hover:text-yellow-500 md:p-0 "
+                    className="block py-2 pr-4 pl-3 text-white  md:hover:text-yellow-500 md:p-0 "
                   >
                     CONTACT
                   </a>

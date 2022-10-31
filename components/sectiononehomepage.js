@@ -5,7 +5,7 @@ import Image2 from "../public/image_01-5.jpg";
 import Image3 from "../public/image_10-1.jpg";
 import Image4 from "../public/image_10-2.jpg";
 import Image5 from "../public/image_03-2.jpg";
-const Contents = () => {
+const Contents = (pageProps) => {
   return (
     <div className="container mx-auto py-24  space-y-20 w-full">
       <div className=" lg:flex lg:flex-row justify-center px-12">
@@ -28,17 +28,14 @@ const Contents = () => {
       <div className="lg:grid lg:grid-cols-2 px-12">
         <div className="col-span-1 space-y-6 py-12 text-center px-8">
           <p className="text-3xl font-medium text-gray-600">
-            Exceptional Customer Service
+            {pageProps.customerserviceData[0].title}
           </p>
           <p className="text-2xl font-light text-gray-500">
-            By offering exceptional service with no detail unattended, we have
-            been fortunate enough to have developed into the leading provider of
-            ground transportation in the area. Our goal is to make your travels
-            safe, effortless and on schedule.
+            {pageProps.customerserviceData[0].content}
           </p>
           <button
             type="button"
-            className="text-white  bg-amber-600 hover:bg-amber-800   rounded-3xl  px-8 py-3 text-center mr-2 mb-2 "
+            className="text-white  bg-berry hover:bg-black   rounded-3xl  px-8 py-3 text-center mr-2 mb-2 "
           >
             CONTACT US
           </button>
