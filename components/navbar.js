@@ -29,25 +29,13 @@ const navbar = (pageProps) => {
             </div>
           </div>
           <div className="flex flex-row space-x-4  justify-center items-center ">
-            <a
-              href={pageProps.headerData[0].facebook}
-              title="facebook"
-              target={"_blank"}
-            >
+            <a href={pageProps.headerData[0].facebook} title="facebook">
               <FaFacebook className="w-6 h-6 text-berry" />
             </a>
-            <a
-              href={pageProps.headerData[0].insta}
-              title="instagram"
-              target={"_blank"}
-            >
+            <a href={pageProps.headerData[0].insta} title="instagram">
               <FaInstagram className="w-6 h-6 text-berry" />
             </a>
-            <a
-              href={pageProps.headerData[0].whatsapp}
-              title="whatsapp"
-              target={"_blank"}
-            >
+            <a href={pageProps.headerData[0].whatsapp} title="whatsapp">
               <FaWhatsapp className="w-6 h-6 text-berry" />
             </a>
           </div>

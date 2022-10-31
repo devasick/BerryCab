@@ -11,6 +11,7 @@ const ContentTwo = (pageProps) => {
         <div className="container px-12  lg:grid lg:grid-cols-4 lg:grid-rows-2 gap-4  lg:space-y-0 space-y-2 w-full">
           {pageProps.whatWeOffeData.map((row, index) => (
             <div
+              key={index}
               className={
                 "col-span-" +
                 row.colSpan +

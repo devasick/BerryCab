@@ -26,7 +26,7 @@ const AboutUs = () => {
               before booking our staff transportation experienced staff
               experience transportation. Our vehicles are well-maintained
               well-maintained and free from defects and accidents. Each one is
-              also registered with the state and carries our company's
+              also registered with the state and carries our company&apos;s
               insurance. This way, you can be sure that your trip will be safe
               and hassle-free.
             </p>
