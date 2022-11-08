@@ -19,10 +19,7 @@ const form = (pageProps) => (
       </p>
       <form action="#" className="space-y-8">
         <div>
-          <label
-            for="subject"
-            className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
-          >
+          <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">
             Name
           </label>
           <input
@@ -34,10 +31,7 @@ const form = (pageProps) => (
           />
         </div>
         <div>
-          <label
-            for="email"
-            className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
-          >
+          <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">
             Your email
           </label>
           <input
@@ -49,10 +43,7 @@ const form = (pageProps) => (
           />
         </div>
         <div>
-          <label
-            for="phone"
-            className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
-          >
+          <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">
             Phone
           </label>
           <input
@@ -70,10 +61,7 @@ const form = (pageProps) => (
             onChange={pageProps.onChange}
             disabled={false}
           /> */}
-          <label
-            for="message"
-            className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400"
-          >
+          <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">
             Your message
           </label>
           <textarea
