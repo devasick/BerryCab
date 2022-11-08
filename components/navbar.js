@@ -9,11 +9,11 @@ import {
 } from "react-icons/fa";
 import Image from "next/image";
 import Logo from "../public/logo.svg";
-import React, { useState } from "react";
+import React from "react";
 import Modal from "./Modal";
 import Form from "../components/form";
-const navbar = (pageProps) => {
-  const [showModal, setShowModal] = useState(false);
+const Navbar = (pageProps) => {
+  const [showModal, setShowModal] = React.useState(false);
   return (
     <div>
       <div className="bg-gray-100 ">
@@ -155,4 +155,4 @@ const navbar = (pageProps) => {
     </div>
   );
 };
-export default navbar;
+export default Navbar;
