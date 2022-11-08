@@ -46,9 +46,13 @@ $color-primary: #e02959;
   font-size: 1.3em;
 }
 
+#get-a-quote {
+  z-index: 999;
+}
+
 @media screen and (min-width: 799px) {
   .google-map {
-    height: 80vh;
+    height: 51vh;
   }
 
   .map-h2 {

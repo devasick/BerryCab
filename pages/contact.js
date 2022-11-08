@@ -1,46 +1,45 @@
 import MapSection from "../components/map";
+import Data from "./api/data.json";
 
-const location = {
-  address: "1600 Amphitheatre Parkway, Mountain View, california.",
-  lat: 37.42216,
-  lng: -122.08427,
-};
 const Contact = () => {
   return (
     <div>
       {/* Content */}
       <div>
-        <MapSection location={location} zoomLevel={17} />
+        <MapSection />
         <div className="lg:grid lg:grid-cols-2">
           <div className="col-span-1 p-24 flex flex-col space-y-8">
             <p className="text-2xl text-gray-600">
-              AutoRide <br />
-              Transportation Services
+              Berry Cab <br />
             </p>
             <p className="text-xl font-light text-gray-500">
-              2507 Parker Boulevard
-              <br /> Oakland, CA 76107
+              {Data.contact[0].address}
             </p>
             <p className="text-xl font-light text-gray-500">
-              Phone: (620) 255 7005 <br />
-              Toll Free: (825) 840 0440
+              Phone: {Data.contact[0].phone}
             </p>
             <p className="text-xl font-light text-gray-500">
-              Email: info@autoride.com
+              Email: {Data.contact[0].email}
             </p>
           </div>
           <div className="col-span-1 bg-gray-100 p-24 flex flex-col space-y-8">
-            <p className="text-2xl text-gray-600">Chairman of the Board</p>
-            <p className="text-xl font-light text-gray-500">
-              Mark Peter
-              <br /> Phone: (620) 252 8021, Fax: (620) 252 8022 <br />
-              Email: mark.peter@autoride.com
+            <p className="text-2xl text-gray-600">
+              Professional chauffeur services
             </p>
-            <p className="text-2xl text-gray-600">Director of Development</p>
             <p className="text-xl font-light text-gray-500">
-              John Green
-              <br /> Phone: (620) 252 8021, Fax: (620) 252 8022 <br />
-              Email: mark.peter@autoride.com
+              Professional chauffeur services are becoming increasingly popular
+              among people who want to travel in style. These services provide
+              luxury vehicles at affordable prices. You can hire a professional
+              driver to take you around town, to work, or even to school. If
+              you’re looking for a reliable service provider, then look no
+              further than us! We have been providing high-quality chauffeur
+              services since 2014. Our drivers are highly trained professionals
+              who know how to handle any situation.
+            </p>
+            <p className="text-2xl text-gray-600">Affordable rates</p>
+            <p className="text-xl font-light text-gray-500">
+              Our rates are extremely competitive compared to other companies.
+              We also offer discounts if you book for longer trips.
             </p>
           </div>
         </div>
@@ -100,7 +99,7 @@ const Contact = () => {
           </div>
           <button
             type="button"
-            className=" text-white  bg-amber-600 hover:bg-amber-800   rounded-3xl  px-8 py-3 text-center mr-2 mb-2 "
+            className=" text-white  bg-berry hover:bg-black   rounded-3xl  px-8 py-3 text-center mr-2 mb-2 "
           >
             CONTACT US
           </button>

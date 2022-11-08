@@ -1,9 +1,9 @@
 {
   "header": [
     {
-      "address": "97, Avenue du General de Gaulle Le Plessis Trevise 94420 France",
+      "address": "Paris, France",
       "phone": "33 7 78 88 62 06",
-      "workingHours": "Mon-Sun: 07:00 - 17:00",
+      "workingHours": "24 hours a day",
       "facebook": "https://www.facebook.com/berrycab",
       "insta": "https://www.instagram.com/berrycab24/",
       "whatsapp": "https://api.whatsapp.com/send/?phone=%2B33751509455&text&type=phone_number&app_absent=0"
@@ -83,10 +83,23 @@
   ],
   "footer": [
     {
-      "address": "97, Avenue du General de Gaulle Le Plessis Trevise 94420 France",
+      "address": "Paris, France",
       "phone": "+33 7788 86206",
       "whatsappNumber": "+33 751 509455",
-      "workingHours": "Mon-Sun: 07:00 - 17:00",
+      "workingHours": "24 hours a day",
+      "email": " Berrycabparis@gmail.com",
+      "facebook": "https://www.facebook.com/berrycab",
+      "insta": "https://www.instagram.com/berrycab24/",
+      "whatsapp": "https://api.whatsapp.com/send/?phone=%2B33751509455&text&type=phone_number&app_absent=0",
+      "content": "Berry Cab was founded in 2010 by two friends who wanted to provide affordable luxury transportation services to their clients.In 2012, Berry Cab expanded its operations to offer car rentals in Paris and surrounding areas."
+    }
+  ],
+  "contact": [
+    {
+      "address": "Paris, France",
+      "phone": "+33 7788 86206",
+      "whatsappNumber": "+33 751 509455",
+      "workingHours": "24 hours a day",
       "email": " Berrycabparis@gmail.com",
       "facebook": "https://www.facebook.com/berrycab",
       "insta": "https://www.instagram.com/berrycab24/",

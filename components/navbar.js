@@ -9,7 +9,11 @@ import {
 } from "react-icons/fa";
 import Image from "next/image";
 import Logo from "../public/logo.svg";
+import React, { useState } from "react";
+import Modal from "./Modal";
+import Form from "../components/form";
 const navbar = (pageProps) => {
+  const [showModal, setShowModal] = useState(false);
   return (
     <div>
       <div className="bg-gray-100 ">
@@ -50,11 +54,20 @@ const navbar = (pageProps) => {
           </Link>
           <div className="flex md:order-2">
             <button
+              onClick={() => setShowModal(true)}
               type="button"
               className="text-berry bg-white hover:text-white hover:bg-black hover:border-black border-2 border-white rounded-3xl  px-5 py-2.5 text-center mr-3 md:mr-0 "
             >
               GET A QUOTE
             </button>
+            <Modal
+              title={"Get a Quote"}
+              onClose={() => setShowModal(false)}
+              show={showModal}
+              heading={showModal}
+            >
+              <Form />
+            </Modal>
             <button
               data-collapse-toggle="mobile-menu-4"
               type="button"

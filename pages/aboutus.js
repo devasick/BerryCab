@@ -87,10 +87,10 @@ const AboutUs = () => {
                     PROFESSIONALISM
                   </p>
                   <p className="text-gray-500">
-                    Our experienced staff and highly professional chauffeurs are
-                    committed to providing safe, reliable transportation,
-                    exceptional customer service, and consistent pricing. We
-                    provide in-house dispatchers who support our clients.
+                    We have a team of professionals who are dedicated to making
+                    sure your trip goes smoothly. From our friendly drivers to
+                    our knowledgeable customer service representatives, we
+                    strive to make each and every ride enjoyable.
                   </p>
                 </div>
               </div>
@@ -109,66 +109,6 @@ const AboutUs = () => {
                     there.
                   </p>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="container mx-auto flex flex-col items-center justify-center text-center py-24  space-y-2">
-          <p className="text-xl font-medium text-amber-600">OUR FLEET</p>
-          <p className="text-4xl font-light text-gray-600">Browse Our Limos</p>
-          <div className="lg:grid lg:grid-cols-3 gap-12 px-4 py-24 w-full">
-            <div className="col-span-1 flex flex-col space-y-3 border border-gray-300">
-              <div
-                className="bg-no-repeat bg-cover bg-center w-full h-64"
-                style={{
-                  backgroundImage: `url(/image_10-1-768x512.jpg)`,
-                }}
-              >
-                <div className="bg-black  bg-opacity-30 w-full h-full  flex items-end justify-start">
-                  <p className="text-white text-xl  p-8">Audi A8</p>
-                </div>
-              </div>
-              <div className="py-1 flex flex-row space-x-2 items-center justify-center">
-                <FaMale className="w-5 h-5 text-gray-500" />
-                <p className="border rounded-full p-2 text-gray-500">4</p>
-                <FaGlobe className="w-5 h-5 text-gray-500" />
-                <p className="border rounded-full p-2 text-gray-500">4</p>
-              </div>
-            </div>
-            <div className="col-span-1 flex flex-col space-y-3 border border-gray-300">
-              <div
-                className="bg-no-repeat bg-cover bg-center w-full h-64"
-                style={{
-                  backgroundImage: `url(/image_10-1-768x512.jpg)`,
-                }}
-              >
-                <div className="bg-black  bg-opacity-30 w-full h-full  flex items-end justify-start">
-                  <p className="text-white text-xl  p-8">Audi A8</p>
-                </div>
-              </div>
-              <div className="py-1 flex flex-row space-x-2 items-center justify-center">
-                <FaMale className="w-5 h-5 text-gray-500" />
-                <p className="border rounded-full p-2 text-gray-500">4</p>
-                <FaGlobe className="w-5 h-5 text-gray-500" />
-                <p className="border rounded-full p-2 text-gray-500">4</p>
-              </div>
-            </div>
-            <div className="col-span-1 flex flex-col space-y-3 border border-gray-300">
-              <div
-                className="bg-no-repeat bg-cover bg-center w-full h-64"
-                style={{
-                  backgroundImage: `url(/image_10-1-768x512.jpg)`,
-                }}
-              >
-                <div className="bg-black  bg-opacity-30 w-full h-full  flex items-end justify-start">
-                  <p className="text-white text-xl  p-8">Audi A8</p>
-                </div>
-              </div>
-              <div className="py-1 flex flex-row space-x-2 items-center justify-center">
-                <FaMale className="w-5 h-5 text-gray-500" />
-                <p className="border rounded-full p-2 text-gray-500">4</p>
-                <FaGlobe className="w-5 h-5 text-gray-500" />
-                <p className="border rounded-full p-2 text-gray-500">4</p>
               </div>
             </div>
           </div>
