@@ -11,7 +11,7 @@ import Image from "next/image";
 import Logo from "../public/logo.svg";
 import React from "react";
 import Modal from "./Modal";
-import Form from "../components/form";
+//import Form from "../components/form";
 const Navbar = (pageProps) => {
   const [showModal, setShowModal] = React.useState(false);
   return (
@@ -66,7 +66,7 @@ const Navbar = (pageProps) => {
               show={showModal}
               heading={showModal}
             >
-              <Form />
+              {/* <Form /> */}
             </Modal>
             <button
               data-collapse-toggle="mobile-menu-4"
